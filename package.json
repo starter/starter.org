@@ -1,0 +1,20 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bankai start index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "morphable": "^0.7.0",
+    "nanohtml": "^1.2.4",
+    "sheetify": "^7.3.3",
+    "tachyons": "^4.11.1",
+    "viewroute": "^0.2.0",
+    "xoo": "^1.2.1"
+  }
+}
