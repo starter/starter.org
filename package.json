@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "bankai start index.js",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -16,5 +17,8 @@
     "tachyons": "^4.11.1",
     "viewroute": "^0.2.0",
     "xoo": "^1.2.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
   }
 }
