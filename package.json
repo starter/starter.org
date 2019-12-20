@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "bankai start index.js",
-    "deploy": "gh-pages -d dist",
+    "build": "bankai build index.js",
+    "deploy": "rm -rf dist && npm run build && cp CNAME dist && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,6 +20,7 @@
     "xoo": "^1.2.1"
   },
   "devDependencies": {
+    "bankai": "^9.15.3",
     "gh-pages": "^1.2.0"
   }
 }

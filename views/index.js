@@ -6,7 +6,6 @@ css('tachyons')
 const bind = xoo({
   location: window.location.pathname,
   get route () {
-    console.log(this.location)
     switch (this.location) {
       case '/':
       case '/index.html':
@@ -21,7 +20,7 @@ module.exports = bind(view)
 
 function view (state) {
   return html`
-    <body class="code lh-copy">
+    <body class="baskerville">
       ${this.route(state)}
     </body>
   `
